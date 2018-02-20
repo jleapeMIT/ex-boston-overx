@@ -2,7 +2,9 @@
     "name": "ex-boston-overx",
     "description": "ex-boston-overx",
     "author": "prof",
-    "keywords": ["ex-boston-overx"],
+    "keywords": [
+        "ex-boston-overx"
+    ],
     "version": "1.0.0",
     "main": "index.js",
     "license": "MIT",
