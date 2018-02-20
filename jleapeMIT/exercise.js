@@ -17,15 +17,15 @@ exercise.findBiggerSalaries = function(){
     // ---------------------------------------------------
 
     var currentSalary = 0;
-    var bigSalaryList = [];
+    exercise.bigSalaryList = [];
     for (var i = 0; i < exercise.salaries.length; i++)  {
         currentSalary = Number(exercise.salaries[i][18]);
         if (exercise.largerSalary(currentSalary)) {
-            bigSalaryList[i] = currentSalary
+            exercise.bigSalaryList.push(currentSalary);
         }
     }
         
-    return bigSalaryList
+    return exercise.bigSalaryList
 };
 
 // filter function
