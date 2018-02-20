@@ -24,13 +24,12 @@ exercise.findBiggerSalaries = function(){
     var currentSalary = 0;
     var bigSalaryList = [];
     for (var i = 0; i < exercise.salaries.length; i++)  {
-        currentSalary = exercise.salaries[i][18];
+        currentSalary = Number(exercise.salaries[i][18]);
         if (largerSalary(currentSalary)) {
             bigSalaryList[i] = currentSalary
         }
     }
         
-    
     return bigSalaryList.length
 };
 
