@@ -43,6 +43,6 @@ exercise.largerSalary = function largerSalary(item){
     //     is larger than exercise.salary
     // ---------------------------------------------------
 
-    return item > exercise.salary
+    return item > exercise.salary;
 
 };
