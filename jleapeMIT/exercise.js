@@ -30,7 +30,7 @@ exercise.findBiggerSalaries = function(){
         }
     }
         
-    return bigSalaryList.length
+    return bigSalaryList
 };
 
 // filter function
