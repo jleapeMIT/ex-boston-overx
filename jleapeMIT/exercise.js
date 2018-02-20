@@ -13,32 +13,25 @@ exercise.load = function(salary, boston){
 exercise.findBiggerSalaries = function(){
 
     // ---------------------------------------------------
-    //   YOUR CODE
-    //
-    //     Return a filtered list of salaries.
-    //     Return salaries larger than exercise.salary
-    //
-    //     Example: salaries larger than 300K is 8
+    //     Return list of salaries larger than exercise.salary
     // ---------------------------------------------------
 
     var currentSalary = 0;
     var bigSalaryList = [];
-    // for (var i = 0; i < exercise.salaries.length; i++)  {
-    //     currentSalary = Number(exercise.salaries[i][18]);
-    //     if (exercise.largerSalary(currentSalary)) {
-    //         bigSalaryList[i] = currentSalary
-    //     }
-    // }
+    for (var i = 0; i < exercise.salaries.length; i++)  {
+        currentSalary = Number(exercise.salaries[i][18]);
+        if (exercise.largerSalary(currentSalary)) {
+            bigSalaryList[i] = currentSalary
+        }
+    }
         
-    return exercise.salaries[][18] > exercise.salary
+    return bigSalaryList
 };
 
 // filter function
 exercise.largerSalary = function largerSalary(item){
 
     // ---------------------------------------------------
-    //   YOUR CODE
-    //
     //     Return a boolean (true/false) if item
     //     is larger than exercise.salary
     // ---------------------------------------------------
