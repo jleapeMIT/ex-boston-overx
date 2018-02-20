@@ -23,14 +23,14 @@ exercise.findBiggerSalaries = function(){
 
     var currentSalary = 0;
     var bigSalaryList = [];
-    for (var i = 0; i < exercise.salaries.length; i++)  {
-        currentSalary = Number(exercise.salaries[i][18]);
-        if (exercise.largerSalary(currentSalary)) {
-            bigSalaryList[i] = currentSalary
-        }
-    }
+    // for (var i = 0; i < exercise.salaries.length; i++)  {
+    //     currentSalary = Number(exercise.salaries[i][18]);
+    //     if (exercise.largerSalary(currentSalary)) {
+    //         bigSalaryList[i] = currentSalary
+    //     }
+    // }
         
-    return bigSalaryList
+    return exercise.salaries[][18] > exercise.salary
 };
 
 // filter function
