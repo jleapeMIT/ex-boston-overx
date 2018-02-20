@@ -23,7 +23,7 @@ exercise.findBiggerSalaries = function(){
 
     var currentSalary = 0;
     var bigSalaryList = [];
-    for i in 1:exercise.salaries.length {
+    for (var i = 0; i < exercise.salaries.length; i++)  {
         currentSalary = exercise.salaries[i][18];
         if (largerSalary(currentSalary)) {
             bigSalaryList[i] = currentSalary
